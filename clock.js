@@ -1,6 +1,6 @@
-const hoursHand=document.querySelector('[date-hour-hand]')
-const minuteHand=document.querySelector('[date-minute-hand]')
-const secondHand=document.querySelector('[date-second-hand]')
+const hoursHand=document.querySelector('#date-hour-hand')
+const minuteHand=document.querySelector('#date-minute-hand')
+const secondHand=document.querySelector('#date-second-hand')
 
 setInterval(setclock,1000);
 
